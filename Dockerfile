@@ -11,4 +11,5 @@ COPY . .
 RUN ./mvnw clean package -DskipTests
 
 # Run the packaged JAR
-CMD ["java", "-jar", "target/*.jar"]
+CMD ["java", "-jar", "target/upi-offline-mesh-0.0.1-SNAPSHOT.jar"]
+
